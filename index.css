@@ -1,0 +1,56 @@
+.box{
+    padding: 20px 10px 20px 10px;
+    background-color: white;
+    border:4px solid black;
+    height:27em;
+    width: 50%;
+}
+.btn{
+    width: 15%;
+}
+.operations button{
+    width: 4.6em;
+}
+.Mathop button{
+    width: 4.6em;
+}
+.numbers button{
+    width: 4.6em;
+}
+.textbox{
+    margin-left: 10%;
+    width:70%;
+}
+#textzone{
+    text-align: right;
+    width: 104%;
+    height: 3em;
+}
+
+@media screen and (min-device-width:990px) and (max-device-width: 1200px){
+    .box{
+        padding: 20px 10px 20px 10px;
+        background-color: white;
+        border:4px solid black;
+        height:27em;
+        width: 60%;
+    }
+}
+@media screen and (min-device-width:768px) and (max-device-width: 990px){
+    .box{
+        padding: 20px 10px 20px 10px;
+        background-color: white;
+        border:4px solid black;
+        height:27em;
+        width: 80%;
+    }
+}
+@media screen and (min-device-width:300px) and (max-device-width: 768px){
+    .box{
+        padding: 20px 10px 20px 10px;
+        background-color: white;
+        border:4px solid black;
+        height:27em;
+        width: 80%;
+    }
+}
